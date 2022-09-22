@@ -1,4 +1,4 @@
-from loader import StockLoader
+from core.loader import StockLoader
 
 if __name__ == "__main__":
     VCB = StockLoader('2022-01-09', '2022-09-09')
