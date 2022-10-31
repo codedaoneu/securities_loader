@@ -1,10 +1,17 @@
 import requests
 from configparser import ConfigParser
+import os
 
 
+ABS_PATH = os.getcwd()
 # get config
 config = ConfigParser()
-config.read('config.ini')
+try:
+    config.read(os.path.join(ABS_PATH, 'config.ini'))
+    config.sections()
+except Exception as e:
+    print('config error')
+
 BASE_URL = config['config']['BASE_URL']
 url = config['config']['url']
 agent = config['config']['agent']

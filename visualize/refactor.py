@@ -1,4 +1,4 @@
 import sys
-from core import loader
+from core.loader import StockLoader
 
 
