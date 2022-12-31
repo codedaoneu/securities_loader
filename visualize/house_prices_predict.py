@@ -1,4 +1,3 @@
-import os
 import sys
 
 import mlflow
@@ -29,12 +28,15 @@ if __name__ == '__main__':
     # train test split
     X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=40)
 
-    if int(sys.argv[1]) == 1:
-        intercept = True
-    elif int(sys.argv[1]) == 0:
-        intercept = False
-    else:
-        raise "wrong intercept input (intercept must be 0 or 1)"
+    try:
+        if int(sys.argv[1]) == 1:
+            intercept = True
+        elif int(sys.argv[1]) == 0:
+            intercept = False
+        else:
+            raise "wrong intercept input (intercept must be 0 or 1)"
+    except Exception as e:
+        print("Unable to read or missing intercept argument: {0}".format(e))
 
     with mlflow.start_run():
         reg = LinearRegression(fit_intercept=intercept)
@@ -47,16 +49,15 @@ if __name__ == '__main__':
         r2 = metrics.r2_score(Y_test, Y_pred)
         r2_adjusted = 1 - (1 - r2) * (n - 1) / (n - p - 1)
 
-        # test_result = pd.concat([Y_test, Y_pred], axis=1)
-        # test_result.columns = ["Y_test", "Y_pred"]
-        # test_result["resid"] = test_result["Y_test"] - test_result["Y_pred"]
-        # test_result.sort_values(by="resid", ascending=False)
-        #
-        # # Sai số trung bình của tập test:
-        # print(test_result["resid"].mean())
-        # print(test_result["resid"].std())
-
-        print(reg.intercept_)
-        print(reg.coef_, 5)
+        resid = np.array(Y_test) - Y_pred
+        # print(resid_df)
+        print(round(resid.mean(), 2))
+        print(round(resid.std(), 2))
         print(r2)
         print(r2_adjusted)
+
+        mlflow.log_param("intercept", intercept)
+        mlflow.log_metric("r2_score", r2)
+        mlflow.log_metric("r2_adjusted", r2_adjusted)
+        mlflow.log_metric("resid_mean", round(resid.mean(), 2))
+        mlflow.log_metric("resid_std", round(resid.std(), 2))

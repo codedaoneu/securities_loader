@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/thang/Desktop/thang.nguyen/main_projects/securities_loader/visualize/mlruns/0/dfbf8d7c950d4901be878909410c43c1/artifacts
+deleted_time: 1672477079489
+end_time: 1672476047149
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: dfbf8d7c950d4901be878909410c43c1
+run_name: burly-mouse-673
+run_uuid: dfbf8d7c950d4901be878909410c43c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1672476047115
+status: 3
+tags: []
+user_id: thang

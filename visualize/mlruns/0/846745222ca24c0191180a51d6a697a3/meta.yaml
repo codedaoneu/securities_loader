@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/thang/Desktop/thang.nguyen/main_projects/securities_loader/visualize/mlruns/0/846745222ca24c0191180a51d6a697a3/artifacts
+deleted_time: 1672477079484
+end_time: 1672476662449
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 846745222ca24c0191180a51d6a697a3
+run_name: legendary-sloth-235
+run_uuid: 846745222ca24c0191180a51d6a697a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1672476662343
+status: 3
+tags: []
+user_id: thang

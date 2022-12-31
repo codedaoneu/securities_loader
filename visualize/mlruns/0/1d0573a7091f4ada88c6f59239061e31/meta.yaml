@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/thang/Desktop/thang.nguyen/main_projects/securities_loader/visualize/mlruns/0/1d0573a7091f4ada88c6f59239061e31/artifacts
+deleted_time: 1672477079494
+end_time: 1672475777860
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 1d0573a7091f4ada88c6f59239061e31
+run_name: capricious-mole-26
+run_uuid: 1d0573a7091f4ada88c6f59239061e31
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1672475777815
+status: 3
+tags: []
+user_id: thang

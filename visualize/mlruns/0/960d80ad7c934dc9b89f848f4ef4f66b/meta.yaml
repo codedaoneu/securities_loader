@@ -1,8 +1,9 @@
 artifact_uri: file:///Users/thang/Desktop/thang.nguyen/main_projects/securities_loader/visualize/mlruns/0/960d80ad7c934dc9b89f848f4ef4f66b/artifacts
+deleted_time: 1672477079518
 end_time: 1672332454445
 entry_point_name: ''
 experiment_id: '0'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 960d80ad7c934dc9b89f848f4ef4f66b
 run_name: casual-trout-559
 run_uuid: 960d80ad7c934dc9b89f848f4ef4f66b

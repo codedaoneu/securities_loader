@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/thang/Desktop/thang.nguyen/main_projects/securities_loader/visualize/mlruns/0/94c21c7409b04af7b6bde6add2fcaa19/artifacts
+deleted_time: 1672477079495
+end_time: 1672476005611
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 94c21c7409b04af7b6bde6add2fcaa19
+run_name: nosy-calf-761
+run_uuid: 94c21c7409b04af7b6bde6add2fcaa19
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1672476005564
+status: 3
+tags: []
+user_id: thang

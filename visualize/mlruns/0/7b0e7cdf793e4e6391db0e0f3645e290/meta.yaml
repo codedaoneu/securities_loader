@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/thang/Desktop/thang.nguyen/main_projects/securities_loader/visualize/mlruns/0/7b0e7cdf793e4e6391db0e0f3645e290/artifacts
+deleted_time: 1672477079516
+end_time: 1672474103601
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 7b0e7cdf793e4e6391db0e0f3645e290
+run_name: traveling-sloth-595
+run_uuid: 7b0e7cdf793e4e6391db0e0f3645e290
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1672474103553
+status: 4
+tags: []
+user_id: thang
