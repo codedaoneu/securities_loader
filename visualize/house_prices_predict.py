@@ -50,7 +50,6 @@ if __name__ == '__main__':
         r2_adjusted = 1 - (1 - r2) * (n - 1) / (n - p - 1)
 
         resid = np.array(Y_test) - Y_pred
-        # print(resid_df)
         print(round(resid.mean(), 2))
         print(round(resid.std(), 2))
         print(r2)
