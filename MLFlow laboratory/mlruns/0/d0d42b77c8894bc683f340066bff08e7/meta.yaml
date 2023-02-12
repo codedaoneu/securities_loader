@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/thang/Desktop/thang.nguyen/main_projects/projects/visualize/mlruns/0/d0d42b77c8894bc683f340066bff08e7/artifacts
+deleted_time: 1672477079508
+end_time: 1672475001588
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: d0d42b77c8894bc683f340066bff08e7
+run_name: sneaky-gnat-547
+run_uuid: d0d42b77c8894bc683f340066bff08e7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1672475001560
+status: 4
+tags: []
+user_id: thang

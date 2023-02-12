@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/thang/Desktop/thang.nguyen/main_projects/projects/visualize/mlruns/0/2218b820ac814bdb83072fb8c95169bf/artifacts
+deleted_time: 1672477079505
+end_time: 1672475081415
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 2218b820ac814bdb83072fb8c95169bf
+run_name: awesome-lamb-636
+run_uuid: 2218b820ac814bdb83072fb8c95169bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1672475081383
+status: 3
+tags: []
+user_id: thang

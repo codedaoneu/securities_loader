@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/thang/Desktop/thang.nguyen/main_projects/projects/visualize/mlruns/0/37dfe3ef581e4abfb32df5f97f9bf06b/artifacts
+end_time: 1672477109414
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 37dfe3ef581e4abfb32df5f97f9bf06b
+run_name: rebellious-sloth-81
+run_uuid: 37dfe3ef581e4abfb32df5f97f9bf06b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1672477109258
+status: 3
+tags: []
+user_id: thang

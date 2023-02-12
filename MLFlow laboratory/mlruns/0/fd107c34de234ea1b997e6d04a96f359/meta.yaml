@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/thang/Desktop/thang.nguyen/main_projects/projects/visualize/mlruns/0/fd107c34de234ea1b997e6d04a96f359/artifacts
+deleted_time: 1672477079505
+end_time: 1672475021106
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: fd107c34de234ea1b997e6d04a96f359
+run_name: handsome-worm-690
+run_uuid: fd107c34de234ea1b997e6d04a96f359
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1672475021081
+status: 3
+tags: []
+user_id: thang

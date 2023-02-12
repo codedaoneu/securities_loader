@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/thang/Desktop/thang.nguyen/main_projects/projects/visualize/mlruns/0/ec303e66cdd24efeae44c414f2d0397d/artifacts
+deleted_time: 1672477079518
+end_time: 1672332479764
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: ec303e66cdd24efeae44c414f2d0397d
+run_name: righteous-toad-639
+run_uuid: ec303e66cdd24efeae44c414f2d0397d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1672332479722
+status: 3
+tags: []
+user_id: thang

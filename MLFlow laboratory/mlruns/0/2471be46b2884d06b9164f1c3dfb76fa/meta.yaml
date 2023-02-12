@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/thang/Desktop/thang.nguyen/main_projects/projects/visualize/mlruns/0/2471be46b2884d06b9164f1c3dfb76fa/artifacts
+end_time: 1672476994755
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2471be46b2884d06b9164f1c3dfb76fa
+run_name: painted-shrike-628
+run_uuid: 2471be46b2884d06b9164f1c3dfb76fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1672476994706
+status: 3
+tags: []
+user_id: thang

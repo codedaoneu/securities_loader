@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/thang/Desktop/thang.nguyen/main_projects/projects/visualize/mlruns/0/25c560324c9b4902b6ca257b7fcf004d/artifacts
+deleted_time: 1672477079484
+end_time: 1672476579382
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 25c560324c9b4902b6ca257b7fcf004d
+run_name: intrigued-rat-424
+run_uuid: 25c560324c9b4902b6ca257b7fcf004d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1672476579326
+status: 3
+tags: []
+user_id: thang
